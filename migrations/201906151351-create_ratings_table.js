@@ -27,7 +27,12 @@ module.exports = {
       rating: {
         allowNull: false,
         type: Sequelize.INTEGER  
-    },
+      },
+      verified:{
+        allowNull: true,
+        type: Sequelize.BOOLEAN
+      }
+
     })/* .then(() => {
         return queryInterface.addConstraint('Ratings', ['product_id', 'user_id'], {
             type: 'primary key',

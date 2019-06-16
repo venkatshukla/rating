@@ -18,7 +18,11 @@ module.exports = (sequelize, DataTypes) => {
     rating: {
         allowNull: false,
         type: DataTypes.INTEGER  
-    }, 
+    },
+    verified: {
+      allowNull: true,
+      type: DataTypes.BOOLEAN
+    } 
   });
 
   return Ratings;
