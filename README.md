@@ -36,7 +36,7 @@
 
 ### Architecture Diagram
 
-![products_schema](images\architecture.JPG)
+![products_schema](images/architecture.JPG)
 
 ### Architecture key relevant components for Rating Service:
 
@@ -46,7 +46,7 @@
 
 ### Ratings Table Schema 
 
-![products_schema](images\ratings_schema.JPG)
+![products_schema](images/ratings_schema.JPG)
 
 ### Rating Service APIs 
 
@@ -66,7 +66,7 @@
 
 ### Process Flow 
 
-![products_schema](images\flow.JPG)
+![products_schema](images/flow.JPG)
 
 **Flow:**
 
