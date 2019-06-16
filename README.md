@@ -21,7 +21,7 @@
 
    Schema of Products Table:
 
-  ![products_schema](images\products_schema.JPG)
+  ![products_schema](images/products_schema.JPG)
 
 - **Order Service**: This service exists and can be called to create orders, update order details(say status= [ In Process, Delivered, Cancelled]) 
 
