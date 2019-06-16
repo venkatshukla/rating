@@ -17,7 +17,7 @@ module.exports = {
     },
     "production": {
         "username": "bu9jbj3rlu5c1p2m",
-        "password": "p3de3wcx68c9ju6p",
+        "password": "p3de3wcx68c9ju6p", //to be fetched from env in prod
         "database": "ubota2tf1hn2sh2p",
         "host": "u3y93bv513l7zv6o.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
         "port": 3306,
