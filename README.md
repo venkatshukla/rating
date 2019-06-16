@@ -50,19 +50,11 @@
 
 ### Rating Service APIs 
 
-- addRating(prd_ids, ratings, user_ids,comments) 
+API Docs can be found here:
 
-  {store the ratings in a persistent storage}
+https://documenter.getpostman.com/view/2554546/S1Zw9BS7?version=latest#31d55cfb-400c-4636-a472-2d21ec719778
 
-- getAvgRating(product_ids)
 
-  {returns average ratings for products_ids}
-
-- getRecentRatings(last_updated_time_stamp)
-
-- updateRatings(product_id)
-
-- getRatings(anyAttribute)
 
 ### Process Flow 
 
@@ -82,7 +74,7 @@
    - Average ratings for these product_ids is then fetched using `getAvgRating` API call.
    - These ratings are then pushed to the **message queue** that ensures it is delivered to Product Service via `updateRatings` API provided by Product Service
 
-5. **User** may also update the ratings for a product by visiting the product page => **System** Calls Rating service API `updateRatings` to update the rating
+5. **User** may also update the ratings for a product by visiting the product page => **System** Calls Rating service API `addRatings` API to update the  which does a update too!
 
    
 
