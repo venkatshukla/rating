@@ -32,7 +32,7 @@
 
 1. Loosely coupled and **Partition** tolerant : Rating being a non critical component should never impact the components that drive the business operations.  It is ok for the rating service to be down and customer not seeing rating for a product for some time. Other functionalities of the systems should not be directly impacted and should keep functioning when rating service is down.
 2. **Availability** : It is a important goal to give customers seamless UX. 
-3. Does not require tight **Consistency**. It okay if things are eventually consistent. Its okay if ratings are not displayed/updated immediately when a user submits a rating. In fact its a very common practice to show ratings after few hours/days (yes amazon ratings takes days to reflect!)
+3. Does not require tight **Consistency**. It is okay if things are eventually consistent. It is okay if ratings are not displayed/updated immediately when a user submits a rating. In fact its a very common practice to show ratings after few hours/days (yes amazon ratings takes days to reflect!)
 
 ### Architecture Diagram
 
